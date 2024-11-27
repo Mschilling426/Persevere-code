@@ -1,0 +1,39 @@
+#parent{
+    width:500px;
+    height:500px;
+    background: yellow;
+    position:relative;
+    overflow:auto;
+
+
+    }
+      .red{
+        width: 100px;
+        height: 100px;
+        background:red;
+        position:absolute;
+        top:25px;
+        left:25px;
+        z-index:152;
+       
+    }
+      .blue{
+        width: 100px;
+        height: 100px;
+        background:blue;
+        position:absolute;
+        left:100px;
+        top:10px;
+        z-index: 151;
+
+        
+    }
+      .green{
+        width:100px;
+        height:100px;
+        background:green;
+        position:absolute;
+        top:50px;
+        left:50px;
+        z-index:200;
+      }
