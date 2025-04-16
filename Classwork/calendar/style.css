@@ -1,0 +1,64 @@
+body {
+    background-image: url(../../images/white-christmas-1184061.jpg);
+
+}
+
+.title {
+    text-align: center;
+    color: rgb(209, 185, 185)
+}
+
+table {
+    width: 100vw;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+table tr td:hover {
+    background-color: rgba(141, 24, 24, 0.441);
+    color: rgb(236, 236, 244);
+    cursor: grab;
+
+}
+
+
+
+
+
+
+caption {
+    color: rgb(174, 180, 173);
+}
+
+
+
+td {
+    vertical-align: top;
+    border: 2px solid rgba(237, 236, 244, 0.432);
+    color: rgb(2, 2, 2);
+    font-size: 20px;
+}
+
+th {
+    border: 2px solid rgba(187, 221, 230, 0.17);
+    padding: 30px;
+    color: rgba(236, 241, 247, 0.6);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+
+tbody td:first-child {
+    color: rgb(169, 6, 6);
+
+}
+
+tbody td:nth-child(odd) {
+    background-color: rgba(236, 235, 244, 0.162);
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(97, 97, 118, 0.556);
+
+}

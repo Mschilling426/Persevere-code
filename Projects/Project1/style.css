@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    align-content: center;
+  }
+
+h1 {
+    font-size: 75px;
+    color: white;
+}
+i {
+    font-size: 25px;
+    color: hsl(180, 94%, 25%);
+}
+header {
+    background: linear-gradient(250deg, hsl(180, 77%, 46%) 40%, purple 40%);
+}
+section {
+    background: rgb(211, 211, 211);
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+footer {
+    background: black;
+    color: white;
+}
+div { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+   
+}
+h3 {
+    border: 2px solid rgb(206, 5, 242);
+    font-size: 45px;
+   
+}

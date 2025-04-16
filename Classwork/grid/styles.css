@@ -1,0 +1,39 @@
+.grid-container{
+    display:grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 10px;
+
+}
+header {
+    grid-area: header;
+    background-color: blueviolet;
+    grid-area: 1fr;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+aside {
+    grid-area: sidebar;
+    background-color: aqua;
+    grid-area: 2fr;
+
+}
+footer {
+    grid-area: footer;
+    background-color: aquamarine;
+    grid-area: 5fr;
+}
+section {
+    background-color: blue;
+}
+
+
+
+

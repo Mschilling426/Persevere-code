@@ -1,0 +1,16 @@
+body {
+    display: flexbox;
+    justify-items: center;
+    cursor: pointer;
+    font-family:monospace, Arial, Helvetica, sans-serif;
+    color:rgb(17, 16, 16);
+    background-color: rgba(21, 146, 104, 0.485);
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+

@@ -1,5 +1,52 @@
 header {
-    background: lightblue;
-    border: solid blue;
+    background: rgb(103, 91, 152);
+    border: solid rgb(87, 230, 144);
     border-width: 10px 0px 10px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.circle {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background: rgb(98, 223, 125);
+    border: 10px solid rgb(80, 4, 112);
+    border-radius: 50%;
+}
+
+body {
+    background: #d89fe7;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h3 {
+    background-color: #ce54c7;
+    padding: 15px;
+    font-size: 1.5em;
+    border-left: 10px solid #0ee3ab;
+}
+
+header,
+h3 {
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+p,
+ul {
+    list-style: none;
+    padding-left: 50px;
+    font-size: 1.3em;
+
+}
+
+.emoji {
+    font-size: 10em;
+
+
 }
